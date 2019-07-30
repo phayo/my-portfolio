@@ -22,3 +22,17 @@ html, body {
 .silver{
   color: #c0c0c0;
 }
+
+.gold{
+  color: #ffd700;
+}
+
+a {
+  color: #00fa94;
+}
+
+.heading{
+  margin-left: 2rem;
+  font-family: 'Saira Stencil One', cursive;
+  opacity: 0.3;
+}
