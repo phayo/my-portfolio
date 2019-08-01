@@ -49,12 +49,12 @@ a {
   top: 0;
   left: 0;
   height: 100vh;
-  z-index: 999;
-  background: rgb(122, 2, 2);
+  z-index: 1;
+  background: rgb(122, 2, 2, 0.5);
   color: #fff;
   transition: all 0.3s;
 }
 
 #content {
-  position: relative;
+  width: 100%;
 }

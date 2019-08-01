@@ -1,14 +1,11 @@
-
-var sideNavScrollbar = document.querySelector('.custom-scrollbar');
-var ps = new PerfectScrollbar(sideNavScrollbar);
 $(document).ready(function(){
-    $("#sidebar").mCustomScrollbar({
-        theme: "minimal"
-   });
+    $(".sidebar").hide();
 
-    $('#sidebarCollapse').on('click', function () {
-        $('#sidebar').toggleClass('active');
+    $('#sidebarCollapse').click(function () {
+        $(".sidebar").hide();
+    });
 
-        $('.collapse.in').toggleClass('in');
+    $('#sidebarShow').click(function () {
+        $(".sidebar").show();
     });
 });
