@@ -1,11 +1,10 @@
 $(document).ready(function(){
-    $(".sidebar").hide();
+    $("#sd").addClass("hide");
 
-    $('#sidebarCollapse').click(function () {
-        $(".sidebar").hide();
+    $("#sidebarShow").click(function(){
+        $("#sd").removeClass("hide");
     });
-
-    $('#sidebarShow').click(function () {
-        $(".sidebar").show();
+    $("#sidebarCollapse").click(function(){
+        $("#sd").addClass("hide");
     });
 });

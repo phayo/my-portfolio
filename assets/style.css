@@ -43,7 +43,7 @@ a {
   align-items: stretch;
 }
 
-#sidebar {
+#sd {
   width: 250px;
   position: fixed;
   top: 0;
@@ -52,9 +52,13 @@ a {
   z-index: 1;
   background: rgb(122, 2, 2, 0.5);
   color: #fff;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 
 #content {
   width: 100%;
+}
+
+#top-navbar {
+background-color: rgb(122, 2, 2);
 }

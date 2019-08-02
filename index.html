@@ -19,8 +19,8 @@
       </head>
       <body class="p-4">
             <div class="wrapper">
-                <nav id="sidebar" class="d-flex flex-column p-4 sidebar">
-                    <div class="d-flex">
+                <nav id="sd" class="d-flex flex-column p-4 sidebar mt-4">
+                    <div class="d-flex mt-2">
                         <span class="ml-auto"><i id="sidebarCollapse" class="fa fa-times"></i></span>
                     </div>
                     <div class="sidebar-header text-center">
@@ -30,7 +30,7 @@
     
                     <ul class="list-unstyled mt-4 components">
                         <li class="active m-4">
-                            <a href="#profileSummary"><h1>Summary</h1></a>
+                            <a href="#summary"><h1>Summary</h1></a>
                         </li>
                         <li class="m-4">
                             <a href="#about"><h1>About Me</h1></a>
@@ -43,7 +43,7 @@
 
                 <!--Content-->
                 <div id="content">
-                    <nav class="navbar navbar-expand-lg">
+                    <nav id="top-navbar" class="navbar navbar-expand-lg fixed-top p-2">
                         <div class="container-fluid">
                             <button type="button" id="sidebarShow" class="btn">
                                 <i class="fa fa-bars text-black"></i>
@@ -51,7 +51,7 @@
                             <div class="d-flex">
                                 <div class="ml-auto">
                                     <span class="h2 stylish mt-4 mr-2">Chukwuebuka Anazodo</span>
-                                    <img class="rounded-circle img-thumbnai" src="https://via.placeholder.com/100"/>
+                                    <img class="rounded-circle img-thumbnai" src="https://via.placeholder.com/50"/>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +74,7 @@
                             </div>
                         </div>
 
-                        <div id="profileSummary p-4">
+                        <div id="summary">
                             <h6 class="display-4 heading">Summary</h6>
                             <div class="row">
                                 <div class="col-md-6">
@@ -246,6 +246,5 @@
         <script src="assets/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
         <script src="assets/js/helper.js"></script>
-        <script src="assets/js/main.js"></script>
       </body>
 </html>
