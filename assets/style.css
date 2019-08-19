@@ -22,3 +22,43 @@ html, body {
 .silver{
   color: #c0c0c0;
 }
+
+.gold{
+  color: #ffd700;
+}
+
+a {
+  color: #00fa94;
+}
+
+.heading{
+  margin-left: 2rem;
+  font-family: 'Saira Stencil One', cursive;
+  opacity: 0.3;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+#sd {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 1;
+  background: rgb(122, 2, 2, 0.5);
+  color: #fff;
+  transition: all 0.5s;
+}
+
+#content {
+  width: 100%;
+}
+
+#top-navbar {
+background-color: rgb(122, 2, 2);
+}
